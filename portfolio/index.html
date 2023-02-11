@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link  rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9946019e98.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+             <img src="images/logo.jpg" class="logo">
+             <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#hobbies">Interest</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+             </ul>
+             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hello!!</h1>
+            <p>I am <span>Prinsha Shrestha.</span><br> Welcome to my portfolio website. </p>
+        </div>
+    </div>
+   </div> 
+<!----------------------About------------>
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/image1.jpg">
+            </div>
+            <div class="about-col-2">
+              <h1 class="subtitle">About Me</h1>  
+              <p> Hi, I am Prinsha Shrestha currently a bachleors student studying BSc Hons. Computer Science in Herald College Kathmande. I was born on March 13, 2005 at Kathmandu, Nepal. I am a middle child among three siblings where I have a elder sister who is 3 years older than me and a younger brother who is 3 years younger than me.   </p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Acheivements')">Acheivements</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+            </div>
+              <div class="tab-contents" id="Skills">
+                <ul>
+                    <li><span>Presentation Skills</span></li>
+                    <li><span>Teamwork skills</span></li>
+                    <li><span>Adaptability</span></li>
+                    <li><span>Self-management</span></li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="Acheivements">
+                <ul>
+                    <li><span>Most Punctual Student Award 2022</span></li>
+                    <li><span>Best Story-Writing Award 2018</span></li>
+                    <li><span>1st in Mathematical Quiz</span></li>
+                </ul>
+              </div>
+              <div class="tab-contents active-tab" id="Experience">
+                <ul>
+                    <li><span>Tutoring</span></li>
+                    <li><span>Volunteer work</span></li>
+                    <li><span>Social Service</span></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------My Education----------------->
+<div id="education">
+    <div class="container">
+        <h1 class="subtitle">MY Education</h1>
+        <div class="education-list">
+            <div>
+                <h2>Bachleors</h2>
+                <li><span>2022-present</span><br>BSc Hons Computer Science<br>Herald College Kathmandu</li>
+            </div>
+            <div>
+                <h2>+2 level</h2>
+                <li><span>2020-2022</span><br>+2 level in Science<br>The Celebration College</li>
+            </div>
+            <div>
+                <h2>SEE level</h2>
+                <li><span>2019</span><br>SEE level<br>The Celebration Co-Ed</li>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Hobbies and Interest -->
+<div id="hobbies">
+    <div class="container">
+        <h1 class="subtitle">My Hobbies and Interest</h1>
+        <div class="hobbies-list">
+            <div class="hobby">
+                <img src="images/image2.jpg">
+                <div class="layer">
+                    <h3>Cooking</h3>
+                </div>
+            </div>
+            <div class="hobby">
+                <img src="images/image3.jpeg">
+                <div class="layer">
+                    <h3>Watching anime</h3>
+                </div>
+            </div>
+            <div class="hobby">
+                <img src="images/image4.jpg">
+                <div class="layer">
+                    <h3>Listening to Music</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------Contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope-circle-check"></i>shresthaprinsha111@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9828853857</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/home/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/prinsha-shrestha-08445124a/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/My_CV.pdf" class="button">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form class="submit-to-google-sheet">
+                   <input type="text" name="Name" placeholder="Your Name" required> 
+                   <input type="text" name="E-mail" placeholder="Your E-mail" required>
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="button btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Reference -->
+<div id="reference">
+    <div class="container">
+        <div class="ref">
+        <p>This website was created by Prinsha Shrestha(prinsha13)</p>
+        <h>Reference:</h><br>
+        <cite>Font Awesome: "https://kit.fontawesome.com/9946019e98.js"<br>
+        Logo maker: https://app.logo.com/ideas<br>
+        Images:<br>
+        Image1:https://www.pinterest.com/LilHappyPills/anime-girls/<br>
+        Image2:https://www.pinterest.com/pin/731201689500932375/<br>
+        Image3:https://www.facebook.com/photo/?fbid=101259185290540&set=pcb.101259305290528<br>
+        Image4:https://www.pinterest.com/pin/736479345289746795/<br>
+        </cite>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright © Prinsha.S, All Rights Reserved</p>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+
+</body>
+</html>
